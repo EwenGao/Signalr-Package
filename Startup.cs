@@ -1,10 +1,10 @@
-using LiveRoom.SignalR;
+using Chat.Core;
 using Microsoft.Owin;
 using Microsoft.Owin.Cors;
 using Owin;
 
 [assembly: OwinStartup(typeof(Startup))]
-namespace LiveRoom.SignalR
+namespace Chat.Core
 {
     public class Startup
     {
